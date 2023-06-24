@@ -6,6 +6,7 @@ import { NETWORK } from "../const/contractAddresses";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  // hello
   return (
     <ThirdwebProvider activeChain={NETWORK}>
       {/* Progress bar when navigating between pages */}
